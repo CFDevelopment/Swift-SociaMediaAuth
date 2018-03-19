@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670ABF8A9A473B61B86E5483 /* Pods_IOSFirebaseSocialAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE12B66BF4F83DBDD0B48457 /* Pods_IOSFirebaseSocialAuth.framework */; };
+		AE73D541205ECEB2005D6CD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE73D540205ECEB2005D6CD2 /* AppDelegate.swift */; };
+		AE73D543205ECEB2005D6CD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE73D542205ECEB2005D6CD2 /* ViewController.swift */; };
+		AE73D546205ECEB2005D6CD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE73D544205ECEB2005D6CD2 /* Main.storyboard */; };
+		AE73D548205ECEB2005D6CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE73D547205ECEB2005D6CD2 /* Assets.xcassets */; };
+		AE73D54B205ECEB2005D6CD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE73D549205ECEB2005D6CD2 /* LaunchScreen.storyboard */; };
+		AE73D557205F14CE005D6CD2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE73D556205F14CD005D6CD2 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EAC7C06673354C141A28B2C /* Pods-IOSFirebaseSocialAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSFirebaseSocialAuth.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSFirebaseSocialAuth/Pods-IOSFirebaseSocialAuth.release.xcconfig"; sourceTree = "<group>"; };
+		AE73D53D205ECEB2005D6CD2 /* IOSFirebaseSocialAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSFirebaseSocialAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE73D540205ECEB2005D6CD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE73D542205ECEB2005D6CD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE73D545205ECEB2005D6CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE73D547205ECEB2005D6CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE73D54A205ECEB2005D6CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE73D54C205ECEB2005D6CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE73D555205EDA6E005D6CD2 /* IOSFirebaseSocialAuth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOSFirebaseSocialAuth.entitlements; sourceTree = "<group>"; };
+		AE73D556205F14CD005D6CD2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDB242DA806E4EF99D74D841 /* Pods-IOSFirebaseSocialAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSFirebaseSocialAuth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSFirebaseSocialAuth/Pods-IOSFirebaseSocialAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		FE12B66BF4F83DBDD0B48457 /* Pods_IOSFirebaseSocialAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSFirebaseSocialAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE73D53A205ECEB2005D6CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670ABF8A9A473B61B86E5483 /* Pods_IOSFirebaseSocialAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7271B22C0B0982AAB76D2528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE12B66BF4F83DBDD0B48457 /* Pods_IOSFirebaseSocialAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A99DE20125EE0AE9B02CFBC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDB242DA806E4EF99D74D841 /* Pods-IOSFirebaseSocialAuth.debug.xcconfig */,
+				1EAC7C06673354C141A28B2C /* Pods-IOSFirebaseSocialAuth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE73D534205ECEB2005D6CD2 = {
+			isa = PBXGroup;
+			children = (
+				AE73D53F205ECEB2005D6CD2 /* IOSFirebaseSocialAuth */,
+				AE73D53E205ECEB2005D6CD2 /* Products */,
+				A99DE20125EE0AE9B02CFBC3 /* Pods */,
+				7271B22C0B0982AAB76D2528 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE73D53E205ECEB2005D6CD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE73D53D205ECEB2005D6CD2 /* IOSFirebaseSocialAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE73D53F205ECEB2005D6CD2 /* IOSFirebaseSocialAuth */ = {
+			isa = PBXGroup;
+			children = (
+				AE73D555205EDA6E005D6CD2 /* IOSFirebaseSocialAuth.entitlements */,
+				AE73D554205ED129005D6CD2 /* Storyboard */,
+				AE73D553205ED11F005D6CD2 /* Classes */,
+				AE73D552205ED116005D6CD2 /* ViewControllers */,
+				AE73D547205ECEB2005D6CD2 /* Assets.xcassets */,
+				AE73D556205F14CD005D6CD2 /* GoogleService-Info.plist */,
+				AE73D54C205ECEB2005D6CD2 /* Info.plist */,
+			);
+			path = IOSFirebaseSocialAuth;
+			sourceTree = "<group>";
+		};
+		AE73D552205ED116005D6CD2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE73D542205ECEB2005D6CD2 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AE73D553205ED11F005D6CD2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE73D540205ECEB2005D6CD2 /* AppDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AE73D554205ED129005D6CD2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AE73D544205ECEB2005D6CD2 /* Main.storyboard */,
+				AE73D549205ECEB2005D6CD2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE73D53C205ECEB2005D6CD2 /* IOSFirebaseSocialAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE73D54F205ECEB2005D6CD2 /* Build configuration list for PBXNativeTarget "IOSFirebaseSocialAuth" */;
+			buildPhases = (
+				EEA21BFA8A49B1C37BB10B40 /* [CP] Check Pods Manifest.lock */,
+				AE73D539205ECEB2005D6CD2 /* Sources */,
+				AE73D53A205ECEB2005D6CD2 /* Frameworks */,
+				AE73D53B205ECEB2005D6CD2 /* Resources */,
+				972DF6B592165F3A5FD39D58 /* [CP] Embed Pods Frameworks */,
+				9309FF6C80CA5BD62B42976E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSFirebaseSocialAuth;
+			productName = IOSFirebaseSocialAuth;
+			productReference = AE73D53D205ECEB2005D6CD2 /* IOSFirebaseSocialAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE73D535205ECEB2005D6CD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Xcode User";
+				TargetAttributes = {
+					AE73D53C205ECEB2005D6CD2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AE73D538205ECEB2005D6CD2 /* Build configuration list for PBXProject "IOSFirebaseSocialAuth" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE73D534205ECEB2005D6CD2;
+			productRefGroup = AE73D53E205ECEB2005D6CD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE73D53C205ECEB2005D6CD2 /* IOSFirebaseSocialAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE73D53B205ECEB2005D6CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE73D54B205ECEB2005D6CD2 /* LaunchScreen.storyboard in Resources */,
+				AE73D557205F14CE005D6CD2 /* GoogleService-Info.plist in Resources */,
+				AE73D548205ECEB2005D6CD2 /* Assets.xcassets in Resources */,
+				AE73D546205ECEB2005D6CD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9309FF6C80CA5BD62B42976E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IOSFirebaseSocialAuth/Pods-IOSFirebaseSocialAuth-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSFirebaseSocialAuth/Pods-IOSFirebaseSocialAuth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		972DF6B592165F3A5FD39D58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IOSFirebaseSocialAuth/Pods-IOSFirebaseSocialAuth-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSFirebaseSocialAuth/Pods-IOSFirebaseSocialAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA21BFA8A49B1C37BB10B40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOSFirebaseSocialAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE73D539205ECEB2005D6CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE73D543205ECEB2005D6CD2 /* ViewController.swift in Sources */,
+				AE73D541205ECEB2005D6CD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE73D544205ECEB2005D6CD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE73D545205ECEB2005D6CD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE73D549205ECEB2005D6CD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE73D54A205ECEB2005D6CD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE73D54D205ECEB2005D6CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE73D54E205ECEB2005D6CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE73D550205ECEB2005D6CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB242DA806E4EF99D74D841 /* Pods-IOSFirebaseSocialAuth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IOSFirebaseSocialAuth/IOSFirebaseSocialAuth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 599RW8J73G;
+				INFOPLIST_FILE = IOSFirebaseSocialAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristobal.IOSFirebaseSocialAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE73D551205ECEB2005D6CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EAC7C06673354C141A28B2C /* Pods-IOSFirebaseSocialAuth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IOSFirebaseSocialAuth/IOSFirebaseSocialAuth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 599RW8J73G;
+				INFOPLIST_FILE = IOSFirebaseSocialAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristobal.IOSFirebaseSocialAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE73D538205ECEB2005D6CD2 /* Build configuration list for PBXProject "IOSFirebaseSocialAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE73D54D205ECEB2005D6CD2 /* Debug */,
+				AE73D54E205ECEB2005D6CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE73D54F205ECEB2005D6CD2 /* Build configuration list for PBXNativeTarget "IOSFirebaseSocialAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE73D550205ECEB2005D6CD2 /* Debug */,
+				AE73D551205ECEB2005D6CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE73D535205ECEB2005D6CD2 /* Project object */;
+}
